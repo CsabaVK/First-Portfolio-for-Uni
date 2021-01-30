@@ -1,0 +1,12 @@
+.contactbg {
+  width: auto;
+  height: 49vw;
+}
+
+.contactbg {
+  -webkit-mask-image: -webkit-gradient(linear, right top, left top, from(black), to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: linear-gradient(to left, black, rgba(0, 0, 0, 0));
+          mask-image: -webkit-gradient(linear, right top, left top, from(black), to(rgba(0, 0, 0, 0)));
+          mask-image: linear-gradient(to left, black, rgba(0, 0, 0, 0));
+}
+/*# sourceMappingURL=contact.css.map */

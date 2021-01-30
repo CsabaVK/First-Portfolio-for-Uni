@@ -1,0 +1,39 @@
+$time: 6;
+$center-size: 200;
+$triangle-ratio: 0.86;
+$inner-ratio: 0.98;
+
+.center-arrow {
+  margin: auto;
+  width: 0; 
+  height: 0;
+  
+  border-bottom: #{$center-size * $triangle-ratio}px solid black;
+  border-left: #{($center-size / 2)}px solid transparent;
+  border-right: #{($center-size / 2)}px solid transparent;
+  transform-origin: 50% 65%;
+
+  animation: rotate-right #{$time}s linear infinite;
+  
+}
+
+.center-arrow-white {
+  position: relative;
+  
+  top: #{(($center-size * (1 - $inner-ratio) + 1)/ 2) }px;    
+  left: #{$center-size * -1 * ($inner-ratio / 2)}px;
+
+  border-bottom: #{$center-size * $triangle-ratio * $inner-ratio}px solid white;
+  border-left: #{($center-size * $inner-ratio / 2)}px solid transparent;
+  border-right: #{($center-size * $inner-ratio / 2)}px solid transparent;  
+}
+
+@keyframes rotate-right
+{
+    from { 
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

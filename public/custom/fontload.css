@@ -1,0 +1,104 @@
+@font-face {
+  font-family: FloodStd;
+  src: url(/public/fonts/flood-std/FloodStd.otf);
+}
+@font-face {
+  font-family: GistLight;
+  src: url(/public/fonts/gist-light/GistLight.otf);
+}
+
+.font1 {
+  font-family: FloodStd;
+  font-size: xx-large;
+}
+.font2{
+  font-family: FloodStd;
+  font-size: 5.1vw;
+  text-align: center;
+}
+.font3{
+  font-family: FloodStd;
+  font-size: 5vw;
+  text-align: center;
+}
+.font4{
+  font-family: FloodStd;
+  font-size: 3.5vw;
+  text-align: center;
+}
+.font5
+{
+  font-family: FloodStd;
+  font-size: 3.3vw;
+  text-align: center;
+}
+.font6{
+  font-family: GistLight;
+  font-size: 2vw;
+  text-align: center;
+}
+.font7
+{
+  font-family: FloodStd;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.font8
+{
+  font-family: FloodStd;
+  font-size: 2vw;
+  text-align: center;
+}
+.font7spec1
+{
+  font-family: FloodStd;
+  font-size: 1.5vw;
+  text-align: left;
+}
+.font7spec2
+{
+  font-family: FloodStd;
+  font-size: 1.5vw;
+  text-align: right;
+}
+.font8spec1
+{
+  font-family: FloodStd;
+  font-size: 2vw;
+  text-align: right;
+}
+.font8spec2
+{
+  font-family: FloodStd;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 0.5vh;
+}
+.font7spec3
+{
+  font-family: FloodStd;
+  font-size: 1.5vw;
+  text-align: left;
+}
+.font6spec{
+  font-family: GistLight;
+  font-size: 1.3vw;
+  text-align: center;
+}
+.font5spec1
+{
+  font-family: FloodStd;
+  font-size: 2vw;
+  text-align: center;
+}
+.font5spec2
+{
+  font-family: FloodStd;
+  font-size: 2vw;
+  text-align: left;
+}
+.font5spec3
+{
+  font-family: FloodStd;
+  font-size: 2vw;
+}

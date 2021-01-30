@@ -1,0 +1,193 @@
+.dp-block{
+  display: block;
+}
+
+.navbarsizefix{
+  /* width: 7vw; */
+  /* margin-left: 5vw; */
+  /* margin-right: 5vw; */
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.logosize{
+  width: 6vw;
+  height: auto;
+}
+
+.color-btn{
+  background-color: #707070;
+}
+.color-text{
+  color: black;
+}
+
+.text-rotate{
+  display: inline-block;
+  transform: rotate(-9deg);
+}
+.text-rtitle{
+  transform: rotate(-9deg);
+}
+.showcaserotate{
+  transform: rotate(+9deg);
+}
+.textcolor{
+  color: white;
+}
+
+.main-background{
+  background-color: #2c2c2c;
+  color: white; 
+}
+
+.mimg{
+  height: auto;
+  width: 80%;
+}
+
+
+/* FOR ARTWORKS PAGE */
+.rect1{
+  /* background-color: white; */
+  border-radius: 40px;
+  height: 30vw;
+  width: 30vw;
+}
+.borderfix{
+  border-radius: 40px;
+}
+.rect2{
+  border-radius: 40px;
+  height: 50vw;
+  width: 23vw;
+}
+
+/* school */
+.rect3{
+  border-radius: 20px;
+  height: 23vw;
+  width: 37vw;
+}
+.rect4{
+  border-radius: 20px;
+  height: 30vw;
+  width: 15vw;
+}
+.rect5{
+  border-radius: 20px;
+  height: 33vw;
+  width: 23vw;
+}
+.rect6{
+  border-radius: 10px;
+  height: 50vw;
+  width: 35vw;
+}
+.rect7{
+  border-radius: 10px;
+  height: 18vw;
+  width: 35vw;
+}
+.rect8{
+  border-radius: 10px;
+  height: 18vw;
+  width: 32vw;
+}
+
+
+
+.m-border-left{
+  border-right: 0.1vw solid white;
+}
+.m-border-right{
+  border-left: 0.1vw solid white;
+}
+
+.iconsize{
+  width: 5vw;
+  height: 5vw;
+}
+
+/* MAINPAGE ICONS */
+.flagicon{
+  width: 2.7vw;
+  height: auto;
+}
+/* MAINPAGE PICS */
+.pic1{
+  width: 10vw;
+  height: auto;
+  border-radius: 1vw;
+}
+.pic2{
+  width: 9vw;
+  height: auto;
+  border-radius: 1vw;
+}
+.pic3{
+  width: 12vw;
+  height: auto;
+  border-radius: 1vw;
+}
+
+/* CONTACT pics */
+.pic4{
+  width: 5vw;
+  height: auto;
+}
+/* school pics */
+.pic5{
+  width: 16vw;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* TRIANGLES */
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid #555;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 150px solid #555;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+	border-bottom: 25px solid transparent;
+}
+
+
+
+/* NO SCROLLBAR */
+.hcb::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hcb {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+/* TRIANGLE */
