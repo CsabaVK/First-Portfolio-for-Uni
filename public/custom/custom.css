@@ -183,6 +183,11 @@
   width: 100%;
   background: linear-gradient(0.25turn, blue, red);
 }
+/* logo */
+.logoprop{
+  width: 20vh;
+  height: auto;
+}
 
 
 /* NO SCROLLBAR */
