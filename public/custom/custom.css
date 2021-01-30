@@ -177,6 +177,12 @@
 	border-bottom: 25px solid transparent;
 }
 
+/* NAVBAR decor */
+.decornav{
+  height: 0.2vh;
+  width: 100%;
+  background: linear-gradient(0.25turn, blue, red);
+}
 
 
 /* NO SCROLLBAR */
